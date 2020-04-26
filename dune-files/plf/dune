@@ -1,0 +1,9 @@
+(coq.theory
+ (name PLF)
+ (package coq-sf-plf))
+
+; T_T   this is from the PLF makefile    T_T
+(rule
+ (target Imp.v)
+ (action
+  (bash "sed -e 's/From LF Require/From PLF Require/g' %{dep:../lf/Imp.v} > Imp.v")))

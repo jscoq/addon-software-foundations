@@ -1,0 +1,12 @@
+{
+    "rootdir": "workdir",
+    "builddir": "coq-pkgs",
+    "projects": {
+        "sf-LF": {
+            "lf": { "prefix": "LF" }
+        },
+        "sf-PLF": {
+            "plf": { "prefix": "PLF" }
+        }
+    }
+}

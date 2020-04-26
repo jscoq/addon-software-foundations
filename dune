@@ -1,0 +1,11 @@
+
+(rule
+ (target coq-pkgs)
+ (deps
+  (package coq-sf-lf)
+  (package coq-sf-plf)
+  (:json software-foundations-pkg.json))
+ (action
+  (run jscoq build %{json} --package coq-pkgs/software-foundations)))
+
+(dirs workdir)

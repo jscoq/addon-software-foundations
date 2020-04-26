@@ -1,0 +1,4 @@
+(coq.theory
+ (name LF)
+ (package coq-sf-lf)
+ (modules :standard \ Review1 Review2))
