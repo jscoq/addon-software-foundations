@@ -1,7 +1,7 @@
 {
     "name": "@jscoq/software-foundations",
     "description": "Software Foundations (Aug 2020, LF+PLF) for jsCoq 0.12",
-    "version": "0.12.0-rc2",
+    "version": "0.12.0-rc3",
     "files": ["README.md", "coq-pkgs"],
     "repository": {
         "type": "git",
