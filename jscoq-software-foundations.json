@@ -1,6 +1,7 @@
 {
     "rootdir": "workdir",
     "builddir": "coq-pkgs",
+    "bundle": "software-foundations",
     "projects": {
         "sf-LF": {
             "lf": { "prefix": "LF" }

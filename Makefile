@@ -1,5 +1,5 @@
 # Notice: DeepSpec/sfdev is a private repository
-REPO = https://github.com/DeepSpec/sfdev
+REPO = git@github.com:DeepSpec/sfdev
 TAG = jscoq
 WORKDIR = workdir
 SUBDIRS = common lf plf
