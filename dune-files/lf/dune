@@ -1,4 +1,4 @@
 (coq.theory
  (name LF)
  (package coq-sf-lf)
- (modules :standard \ Review1 Review2))
+ (modules :standard \ Review1 Review2 tmp1 ImpHugo))
