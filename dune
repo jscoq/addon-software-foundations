@@ -4,6 +4,8 @@
  (deps
   (package coq-sf-lf)
   (package coq-sf-plf)
+  (package coq-sf-vfa)
+  (package coq-sf-slf)
   (:json jscoq-software-foundations.json))
  (action
   (run npx %{env:pkgtool=jscoq} build %{json})))

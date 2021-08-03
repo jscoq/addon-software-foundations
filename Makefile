@@ -2,7 +2,7 @@
 REPO = git@github.com:DeepSpec/sfdev
 TAG = jscoq
 WORKDIR = workdir
-SUBDIRS = common lf plf
+SUBDIRS = common lf plf vfa slf
 
 .PHONY: all get
 

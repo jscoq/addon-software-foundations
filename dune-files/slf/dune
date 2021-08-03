@@ -1,0 +1,4 @@
+(coq.theory
+ (name SLF)
+ (package coq-sf-slf)
+ (modules :standard \ LibMap LibFix Credits))

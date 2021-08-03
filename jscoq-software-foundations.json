@@ -8,6 +8,12 @@
         },
         "sf-PLF": {
             "plf": { "prefix": "PLF" }
+        },
+        "sf-VFA": {
+            "vfa": { "prefix": "VFA" }
+        },
+        "sf-SLF": {
+            "slf": { "prefix": "SLF" }
         }
     }
 }
