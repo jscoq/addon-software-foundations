@@ -1,5 +1,5 @@
 (coq.theory
  (name SLF)
  (package coq-sf-slf)
- (modules :standard \ LibMap LibFix LibSepMoreTriples LibSepWpgenSummary Credits)
+ (modules :standard \ LibMap LibFix LibSepMoreTriples LibSepWpgenSummary LibSepFunctor Ghost Credits)
  (flags -w -implicits-in-term,-redundant-canonical-projection,-several-object-files,-ambiguous-paths,-implicit-core-hint-db,-file-no-extension,-custom-entry-overriden,-custom-entry-overridden,-deprecated-hint-without-locality,-deprecated-ident-entry,-deprecated-hint-rewrite-without-locality,-deprecated-instance-without-locality))
